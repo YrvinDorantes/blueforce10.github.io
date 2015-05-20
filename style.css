@@ -1,73 +1,52 @@
-html{
-	width: 75%;
-	margin: 0 auto;
-	font-size: 26px;
-	
+body{
+		background-color: #4B4B4B;
+
 }
 
-#cabezera{
-	padding: 0px;
-	background-color: #015581;
-	height: 50px;
-	overflow: auto;
-}
-
-section{
-	padding: 0px;
-	overflow: auto;
-}
-
-
-.box{
-	font-family: 'Ubuntu', sans-serif;
-	width: 25%;
-	background-color: #fff;
-	float: left;
-	box-sizing: border-box;
-	padding: 20px;
-}
-
-.box2{
-	font-family: 'Ubuntu', sans-serif;
-	width: 70%;
-	background-color: #fff;
-	float: right;
-	box-sizing: border-box;
-	padding: 60px;
-}
-
-
-
-h1{
+h2{
 	text-align: center;
-	color: white;
 	margin: 0px;
 }
 
-img{
-	max-width: 100%
 
-}
-
-hr{
-	border: 3px solid #BFBFBF; 
-	border-radius: 300px/10px; 
-	height: 0px; 
-	text-align: center;
-}
-
-span{
-	font-weight: bold;
-}
-
-body{
-	margin: 0;
+#Header{
+	background-color: #FCFCF9;
 }
 
 
+.my-name {
+    color: #4A4A4A;
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
 
 
+.my-picture{
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin: 0px 20px 5px 0px;
+    padding: 4px;
+}
 
 
+.my-caption {
+    border-bottom: 1px dotted #389B17;
+    color: #389B17;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.padding{
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
 
 
